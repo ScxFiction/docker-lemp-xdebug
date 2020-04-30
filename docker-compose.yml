@@ -31,6 +31,6 @@ services:
       working_dir: /app
       volumes:
         - .:/app
-        - ./config/php-fpm/php-ini-overrides.ini:/etc/php/7.2/fpm/conf.d/99-overrides.ini
-        - ./config/php-fpm/xdebug-ini-overrides.ini:/etc/php/7.2/cli/conf.d/20-xdebug.ini
+        - ./config/php-fpm/php-ini-overrides.ini:/etc/php/7.4/fpm/conf.d/99-overrides.ini
+        - ./config/php-fpm/xdebug-ini-overrides.ini:/etc/php/7.4/cli/conf.d/20-xdebug.ini
 

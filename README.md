@@ -1,4 +1,4 @@
-NGINX, PHP 7.2, XDEBUG, MySQL 5.7, +VSCODE Config
+NGINX, PHP 7.4, XDEBUG, MySQL 5.7, +VSCODE Config
 =================================================
 
 # Config #
@@ -10,7 +10,7 @@ NGINX, PHP 7.2, XDEBUG, MySQL 5.7, +VSCODE Config
 
 You have to set your IP addr for XDEBUG.
 `/config/php-fpm/xdebug-ini-overrides.ini`
- 
+
 # How to run #
 
 `cd` to your project and run `docker-compose up -d`
